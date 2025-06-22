@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-22 16:19:56</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1919427133593321475" target="_blank" class="news-link">武磊在西班牙巴塞罗那进行了二次手术，是因为华山医院运动医学科技术不行吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时19分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%A5%9E%E7%A7%98%E4%BA%BA%E5%90%91%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E6%8D%901.8%E4%BA%BF" target="_blank" class="news-link">神秘人向华中科技大学捐1.8亿</a> [12] <font color='grey'>- 16时19分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2061913" target="_blank" class="news-link">2025券商年中策略：权益资产正迎来年度级别牛市 科技、红利被看好</a> [12] <font color='grey'>- 16时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8D%B0%E5%BA%A6AI%E4%BA%A7%E4%B8%9A%E8%83%BD%E6%9C%89%E5%A4%9A%E7%A6%BB%E8%B0%B1" target="_blank" class="news-link">印度AI产业能有多离谱</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时19分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2063960" target="_blank" class="news-link">“A+H”股加速扩容！月内27家A股上市公司披露赴港IPO进展，900亿AI算力芯片龙头在列</a> [11] <font color='grey'>- 16时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2140129" target="_blank" class="news-link">前员工揭秘哪吒倒闭内幕</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31022244" target="_blank" class="news-link">京东“零佣金”杀入酒旅行业：酒店商家怎么选？在线旅游平台如何应对？</a> [16] <font color='grey'>- 16时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28342949&amp;amp;topic_name=AMD%E7%9A%84%E5%B9%B3%E4%BB%B7%E7%A5%9EU%E8%A6%81%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">AMD的平价神U要来了</a> [28] <font color='grey'>- 16时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7517738806850666559/" target="_blank" class="news-link">美拟取消芯片技术豁免反制中国稀土</a> [11] <font color='grey'>- 16时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2063840" target="_blank" class="news-link">普京：俄罗斯准备支持伊朗发展和平核能</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时19分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7517738806850666559/" target="_blank" class="news-link">美拟取消芯片技术豁免反制中国稀土</a> [11]</li></ul></div>
+        </body>
+        </html>
+        
