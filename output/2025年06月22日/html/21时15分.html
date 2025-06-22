@@ -1,0 +1,146 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-22 21:15:48</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E6%96%B0%E4%B8%80%E4%BB%A3%E4%BA%BA%E6%89%8D%E4%B8%8EAI%E5%85%B1%E7%94%9F%E5%85%B1%E9%95%BF%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">新一代人才与AI共生共长</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时15分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2063960" target="_blank" class="news-link">“A+H”股加速扩容！月内27家A股上市公司披露赴港IPO进展，900亿AI算力芯片龙头在列</a> [9] <font color='grey'>- 21时15分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8D%B0%E5%BA%A6AI%E4%BA%A7%E4%B8%9A%E8%83%BD%E6%9C%89%E5%A4%9A%E7%A6%BB%E8%B0%B1" target="_blank" class="news-link">印度AI产业能有多离谱</a> [24] <font color='grey'>- 21时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1919427133593321475" target="_blank" class="news-link">武磊在西班牙巴塞罗那进行了二次手术，是因为华山医院运动医学科技术不行吗？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时15分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%A5%9E%E7%A7%98%E4%BA%BA%E5%90%91%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E6%8D%901.8%E4%BA%BF" target="_blank" class="news-link">神秘人向华中科技大学捐1.8亿</a> [25] <font color='grey'>- 21时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E8%91%A3%E4%BA%8B%E9%95%BF%E5%85%AC%E5%9B%AD%E8%B7%B3%E8%88%9E%E7%AC%91%E5%BE%97%E5%83%8F%E4%B8%AA%E5%AD%A9%E5%AD%90" target="_blank" class="news-link">胖东来董事长公园跳舞笑得像个孩子</a> [7] <font color='grey'>- 21时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黑神话 冯骥</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28342984&amp;amp;topic_name=%E5%BD%92%E5%94%90%E8%83%BD%E8%B6%85%E8%B6%8A%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA%E5%90%97" target="_blank" class="news-link">归唐能超越黑神话悟空吗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2140129" target="_blank" class="news-link">前员工揭秘哪吒倒闭内幕</a> [21] <font color='grey'>- 21时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31022244" target="_blank" class="news-link">京东“零佣金”杀入酒旅行业：酒店商家怎么选？在线旅游平台如何应对？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8kOaFVOB3rP" target="_blank" class="news-link">美国总统特使喊话马斯克：今后几周在伊朗免费开通“星链”</a> [6] <font color='grey'>- 21时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BE%97%E7%9F%A5Switch2%E9%94%80%E9%87%8F%E7%9A%84%E7%B4%A2%E5%B0%BC%E5%BE%AE%E8%BD%AF" target="_blank" class="news-link">得知Switch2销量的索尼微软</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2063840" target="_blank" class="news-link">普京：俄罗斯准备支持伊朗发展和平核能</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时15分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E8%91%A3%E4%BA%8B%E9%95%BF%E5%85%AC%E5%9B%AD%E8%B7%B3%E8%88%9E%E7%AC%91%E5%BE%97%E5%83%8F%E4%B8%AA%E5%AD%A9%E5%AD%90" target="_blank" class="news-link">胖东来董事长公园跳舞笑得像个孩子</a> [7]</li></ul></div>
+        </body>
+        </html>
+        
