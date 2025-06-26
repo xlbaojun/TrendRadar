@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-26 15:54:25</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749792" target="_blank" class="news-link">英伟达涨超4%创历史新高，力撑纳指三连涨，原油反弹，美元近三年低位</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时54分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2067924" target="_blank" class="news-link">美股收盘：三大指数涨跌不一 英伟达股价刷新历史新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时54分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2067911" target="_blank" class="news-link">黄仁勋：机器人技术是英伟达下一个万亿美元级别的增长机会</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时54分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2067988" target="_blank" class="news-link">英伟达重夺全球“市值之王”桂冠 华尔街投行：AI“黄金浪潮”将至！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时54分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749841" target="_blank" class="news-link">AI之后英伟达最大机遇！黄仁勋力捧机器人技术，英伟达股价历史新高</a> [10] <font color='grey'>- 15时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1919446114618303439" target="_blank" class="news-link">华为自研的仓颉编程语言将于 7 月 30 日开源，这款语言将如何影响未来的开发趋势？</a> [16] <font color='grey'>- 15时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2068074" target="_blank" class="news-link">宇树科技王兴兴：公司目前员工约一千人，年度营收超十亿元</a> [6] <font color='grey'>- 15时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黑神话 冯骥</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343043&amp;amp;topic_name=%E9%9F%A9%E5%9B%BD%E8%83%BD%E5%81%9A%E5%87%BA%E9%BB%91%E7%A5%9E%E8%AF%9D%E7%BA%A7%E5%88%AB%E5%A4%A7%E4%BD%9C%E5%90%97" target="_blank" class="news-link">韩国能做出黑神话级别大作吗</a> [22] <font color='grey'>- 15时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1921501875582263828" target="_blank" class="news-link">英伟达股价创新高，市值超越微软重回全球第一，黄仁勋称机器人是 AI 之后英伟达最大机遇，如何解读？</a> [18] <font color='grey'>- 15时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%95%91%E5%91%BD%20AI%E5%B1%85%E7%84%B6%E8%AE%A9%E5%8A%A8%E7%89%A9%E8%B7%B3%E6%B0%B4%E4%BA%86" target="_blank" class="news-link">救命 AI居然让动物跳水了</a> [24] <font color='grey'>- 15时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E8%B5%9B" target="_blank" class="news-link">全国大学生机器人大赛</a> [16] <font color='grey'>- 15时54分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E8%B5%9B" target="_blank" class="news-link">全国大学生机器人大赛</a> [16]</li></ul></div>
+        </body>
+        </html>
+        
