@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-27 12:17:11</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.14%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749906" target="_blank" class="news-link">一文看懂小米发布会：YU 7标准版25.35万元、AI眼镜定价1999起、将在辅助驾驶领域持续投入，下半年升级小米XLA大模型</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时17分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2069048" target="_blank" class="news-link">一图看懂 | YU7价格公布、AI眼镜亮相 小米发布会要点来了!</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时17分</font><br>[douyin] <a href="https://www.douyin.com/hot/2145957" target="_blank" class="news-link">小米AI眼镜支持配有度数的镜片</a> [13] <font color='grey'>- 12时17分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1921380905727030248" target="_blank" class="news-link">如何评价何恺明 (Kaiming He) 仅用一年便取得了 MIT 终身教职？</a> [13] <font color='grey'>- 12时17分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1921648095428568614" target="_blank" class="news-link">小米 AI 眼镜发布，售价 1999 元起，有哪些功能亮点？你看好其市场前景吗？</a> [14] <font color='grey'>- 12时17分</font><br>[douyin] <a href="https://www.douyin.com/hot/2145930" target="_blank" class="news-link">小米首款AI眼镜售价1999元起</a> [16] <font color='grey'>- 12时17分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%B0%8F%E7%B1%B3AI%E7%9C%BC%E9%95%9C%E8%B6%85%E6%B7%B1%E5%BA%A6%E4%BD%93%E9%AA%8C" target="_blank" class="news-link">小米AI眼镜超深度体验</a> [25] <font color='grey'>- 12时17分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7520402245049912851/" target="_blank" class="news-link">小米AI眼镜给“百镜大战”再添一把火</a> [26] <font color='grey'>- 12时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749889" target="_blank" class="news-link">标普、纳指收近历史高位，英伟达续创新高，小米一度涨近12%，美元跌至三年来最低</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时17分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2069167" target="_blank" class="news-link">【数读IPO】今年上半年净利预增超24% 半导体设备领域细分龙头今日申购</a> [10] <font color='grey'>- 12时17分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7520402245049912851/" target="_blank" class="news-link">小米AI眼镜给“百镜大战”再添一把火</a> [26]</li></ul></div>
+        </body>
+        </html>
+        
